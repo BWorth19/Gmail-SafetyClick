@@ -149,7 +149,7 @@ function handleSafetyResults(results) {
     }
     else
     {
-        const checkLinksResult = alert("Link is safe!");
+        const checkLinksResult = alert("All Links are safe!");
     }
     chrome.runtime.sendMessage({ action: 'checkLinksResult', result: checkLinksResult });
   });
